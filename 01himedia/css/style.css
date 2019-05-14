@@ -1,0 +1,17 @@
+@charset "utf-8";
+header#main_header{width: 980px;height: 150px;background-color:white; margin:0 auto; position:relative;}
+header#main_header>div.main_util{width: 980px;height: 30px;background-color:white;}
+header#main_header>div.main_util>div.util_menu{}
+header#main_header>div.main_util>div.util_menu>div.util_wrap{position:absolute; right:0; height: 20px;}
+header#main_header>div.main_util>div.util_menu>div.util_wrap>ul{}
+header#main_header>div.main_util>div.util_menu>div.util_wrap>ul>li{float:left; border-right:1px solid black; background-color: white; padding:0 10px;}
+header#main_header>div.main_util>div.util_menu>div.util_wrap>ul>li:last-child{border:none;}
+header#main_header>div.main_util>div.util_menu>div.util_wrap>ul>li>a{display:block;}
+
+header#main_header>h1{text-align:center; margin:0 auto; position:absolute; width: 980px;}
+
+header#main_header>div.main_menu
+header#main_header>div.main_menu>div.menu_wrap{position:absolute; width: 980px;}
+header#main_header>div.main_menu>div.menu_wrap>ul
+header#main_header>div.main_menu>div.menu_wrap>ul>li{float:left; border-right: 1px solid white;}
+header#main_header>div.main_menu>div.menu_wrap>ul>li>a{display:block}
